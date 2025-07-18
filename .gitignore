@@ -1,0 +1,72 @@
+# Java & Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+**/*.log
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+**/docker-compose.*.yml
+**/docker-compose.yml
+**/.env
+**/.env.*
+**/docker/
+**/Dockerfile*
+
+# Kubernetes
+**/k8s/
+**/*.yaml
+**/*.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# MinIO
+minio/
+
+# Kafka
+kafka-logs/
+
+# General
+.env
+.env.*
+
+# Others
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Build
+build/
+dist/
+
+# Local dev
+local.env 
